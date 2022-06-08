@@ -4,32 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="#8C9EFF"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtTextView1"
+        android:id="@+id/notesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="18sp"
-         />
-    <TextView
-        android:id="@+id/txtTextView2"
+        android:text="Notes"
+        android:textSize="30sp"
+        android:textColor="@color/black" />
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/notesTitle"
+    android:layout_above="@id/addNewNoteBtn"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addNewNoteBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtTextView1"
-        android:text="Hello!"
-        android:textSize="18sp"/>
-
-    <Button
-        android:id="@+id/btnButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save Note"
+        android:text="Add a New Note"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="150dp"
-        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"
+        android:textSize="18sp"
 
         />
 
