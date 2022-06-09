@@ -9,6 +9,9 @@ import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
 
+import io.realm.Realm;
+import io.realm.RealmResults;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, AddNoteActivity.class));
             }
         });
+
+        Realm.init(getApplicationContext());
+        Realm realm = Realm.getDefaultInstance();
+
+        RealmResults<Notes> notesList = realm.where(Notes.class).findAll();
     }
 }
