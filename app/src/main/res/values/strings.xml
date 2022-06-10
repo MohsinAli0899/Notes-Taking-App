@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EasyNotes</string>
+    <string name="easy_notes">EasyNotes</string>
+    <string name="add_a_new_note">Add a New Note</string>
+    <string name="add_a_new_note">Add a New Note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="save_note">Save Note</string>
 </resources>
