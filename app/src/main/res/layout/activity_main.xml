@@ -22,18 +22,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_below="@id/notesTitle"
-    android:layout_above="@id/addNewNoteBtn"/>
+    android:layout_above="@id/addNoteFAB"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/addNewNoteBtn"
-        android:layout_width="match_parent"
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/addNoteFAB"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_a_new_note"
         android:layout_alignParentBottom="true"
-        android:textAllCaps="false"
-        android:backgroundTint="@color/black"
-        android:textSize="18sp"
-
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#2E4CEF"
+        android:src="@drawable/add_new_note"
+        android:contentDescription="@string/add_note_button" />
 
 </RelativeLayout>

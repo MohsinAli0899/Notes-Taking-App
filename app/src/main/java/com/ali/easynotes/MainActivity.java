@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import io.realm.Realm;
 import io.realm.RealmChangeListener;
@@ -22,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MaterialButton addNewNoteBtn = findViewById(R.id.addNewNoteBtn);
+        FloatingActionButton addNoteFAB = findViewById(R.id.addNoteFAB);
 
-        addNewNoteBtn.setOnClickListener(new View.OnClickListener() {
+        addNoteFAB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             startActivity(new Intent(MainActivity.this, AddNoteActivity.class));
