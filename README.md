@@ -2,7 +2,7 @@
 
 -> EasyNotes is a simple notes taking app for your daily tasks.
 
--> It is simple and reliable.
+-> It is simple, reliable, and easy to use.
 
 -> The app uses realm database to store the notes in the device.
 
