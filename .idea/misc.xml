@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/drawable/add_new_note.xml" value="0.2265" />
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/drawable/rounded_corner.xml" value="0.2265" />
+        <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/drawable/splashscreen.xml" value="0.2265" />
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/activity_add_note.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/activity_opening.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/activity_splash_screen.xml" value="0.4921875" />
         <entry key="..\:/Users/mohsi/AndroidStudioProjects/EasyNotes/app/src/main/res/layout/item_view.xml" value="0.23645833333333333" />
       </map>
     </option>
